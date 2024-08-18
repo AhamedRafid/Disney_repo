@@ -1,0 +1,98 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .filter-items figure {
+        width: calc(50% - 12px);
+    }
+    #price .price-items {
+        flex-wrap: wrap;
+     }
+     #price .price-items .item {
+        width: 50%;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .filter-items figure {
+        width: 31%;
+    }
+    #price .price-items {
+        gap: 16px;
+    }
+    #price .price-items .item {
+    padding: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .filter-items figure {
+        width: 31%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+   
+}
+
+@media (min-width: 1400px) {
+    
+}
+
+/* https://mfdr-movie.netlify.app/ */
+
+@media (max-width: 575px) {
+
+    .button {
+        padding: 22px 36px 22px;
+    }
+    #banner {
+        background-position: center;
+        padding-top: 103px;
+        padding-bottom: 71px;
+    }
+    .banner-content {
+        gap: 0;
+    }
+    .banner-content .left-content .buttons {
+        flex-direction: column;
+    }
+    .left-content .viwe-all img {
+        width: 100%;
+    }
+    .right-content {
+        display: none;
+    }
+
+    /* filter section start */
+    .filter-menu ul {
+        gap: 24px;
+    }
+    .filter-menu ul li button {
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+    .filter-items figure {
+        width: 100%;
+    }
+    .filter-items figure img {
+        width: 100%;
+    }
+    /* filter section end */
+
+    /* Price plan start */
+    #price .price-items {
+       flex-wrap: wrap;
+    }
+    /* Price plan end */
+
+    /* Watch section start */
+    .watch-content {
+        flex-wrap: wrap;
+    }
+    .watch-content .watch-item {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    /* Watch section start */
+}

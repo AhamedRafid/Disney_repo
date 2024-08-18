@@ -1,0 +1,345 @@
+/* All common css Start */
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: font-family: "Roboto", sans-serif;;
+}
+ul ,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p, h3 {
+    color: #c0c0c0;
+}
+.container {
+   width: 1200px;
+   margin: 0 auto; 
+}
+.button {
+    background: #0063e5;
+    color: #f9f9f9;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding: 22px 75px 22px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all linear 0.3s;
+    text-align: center;
+}
+.img-fluid {
+    width: 100%;
+    object-fit: cover;
+}
+.button:hover {
+    color: #0063e5;
+    background: #f9f9f9;
+}
+body {
+    background: #040714;
+    color: #fff;
+}
+button {
+    background: transparent;
+    border: none;
+}
+/* All common css End */
+
+/* Navbar start */
+nav {
+    background: transparent;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.Login-menu {
+    
+   position: absolute;
+   right: 30px;
+   top: 20px;
+}
+.Login-menu a {
+    border: 1px solid #c0c0c0;
+    padding: 16px 17px;
+    border-radius: 4px;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+/* Navbar end */
+
+/* Banner part start */
+#banner {
+    background: url(../Images/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 138px;
+    padding-bottom: 138px; */
+    height: 580px;
+}
+.banner-content {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 30px;
+
+    /* margin: 24px;    */
+}
+.banner-content .left-content .buttons {
+    display: flex;
+    gap: 24px;
+    margin-top: 47px;
+}
+.left-content h3 {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 24px;
+    letter-spacing: 0.2px;
+}
+.left-content{
+    margin-top: 50px ;
+}
+.left-content p {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    padding-bottom: 31px;
+}
+.left-content ph a {
+    color: #ffffff;
+    font-size: 14px;
+}
+.left-content .view-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.left-content .view-all a {
+    color: #f9f9f9;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+/* Banner part end */
+
+/* Filter part start */
+#filter {
+    padding-top: 52px;
+    padding-bottom: 170px;
+}
+.filter-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.filter-menu ul li button {
+    color: #f9f9f9;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    background: none;
+    padding-bottom: 12px;
+}
+.filter-menu ul li.active button {
+    border-bottom: 5px solid #f9f9f9;
+}
+.filter-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 24px;
+}
+.filter-items figure {
+    width: 32%;
+}
+/* Filter part end */
+
+/* Price section start */
+#price {
+    padding-top: 25px;
+    padding-bottom: 140px;
+}
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    color: #f9f9f9;
+    font-size: 47px;
+    font-weight: 600px;
+    line-height: 1.5;
+}
+.button-parents {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+.price-buttons {
+    border-radius: 1000px;
+    border: 5px solid #2d3d37;
+    display: flex;
+    justify-content: center;
+}
+.price-buttons button {
+    padding: 5px 16px;
+    border-radius: 1000px;
+    color: #fff;
+    font-size: 18px;
+    list-style: 1.25;
+}
+.price-buttons button.active {
+    background: #0063e5;
+}
+#price .price-items {
+    display: flex;
+    gap: 25px;
+}
+#price .price-items .item {
+    border: 1px solid #c0c0c0;
+    padding: 41px 45px;
+}
+#price .price-items .item h4 {
+    font-size: 27px;
+    line-height: 38px;
+}
+#price .price-items .item strong {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+#price .price-items .item ul {
+    padding-bottom: 78px;
+}
+#price .price-items .item ul li {
+    display: flex;
+    gap: 5px;
+}
+#price .price-items .item ul li span {}
+#price .price-items .item ul li p {
+    font-size: 16px;
+    line-height: 26px;
+}
+#price .price-items .item .price-value p {
+    padding-bottom: 12px;
+    font-size: 28px;    
+}
+#price .price-items .item .price-value p span {
+    padding-bottom: 12px;
+    font-size: 16px;
+    color: #c0c0c0;    
+}
+/* Price section end */
+
+/* Watch section start */
+#watch {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.watch-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.watch-content .watch-item {
+   width: 50%;
+}
+.watch-list-data {
+    padding-left: 24px;
+}
+.watch-list-data h2 {
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+.watch-list-data ul {
+    list-style: disc;
+}
+.watch-list-data ul li {
+    color: #c0c0c0;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3;
+}
+/* Watch section end */
+
+/* FAQ section start */
+#FAQ {
+    padding-top: 78px;
+    padding-bottom: 80px;
+}
+.faq-content h2 {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 900;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.faq-item {
+    margin-bottom: 16px;
+} 
+
+.faq-item h3 {
+    padding: 10px;
+    background: #13151D;
+    font-size: 20px;
+    line-height: 30px;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-item h3 span {
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+}
+.faq-item .faq-answer {
+    padding: 12px;
+    background: #2d3d37;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    display: none;
+}
+/* FAQ section end */
+
+/* Footer section start */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin: 0 auto;
+  }
+  
+  .footer-item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .main-footer {
+    padding: 30px;
+  }
+  /* Footer section end */
+  
+ 
